@@ -1,3 +1,3 @@
---Creating a user on database
+-- Creating a user on database
 SHOW databases;
 
