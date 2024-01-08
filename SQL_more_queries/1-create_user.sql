@@ -1,11 +1,4 @@
--- Set the MySQL user and password
-SET @mysql_user = 'user_0d_1';
-SET @mysql_password = 'user_0d_1_pwd';
+-- creating a user and password
+CREATE USER IF NOT EXISTS 'user_0d_1'@'localhost' IDENTIFIED BY 'user_0d_1_pwd';
+GRANT ALL PRIVILEGES ON *.* TO 'user_0d_1'@'localhost' WITH GRANT OPTION;
 
--- Drop the user if it exists
-DROP USER IF EXISTS @mysql_user@'localhost';
-
--- Create the user with all privileges
-CREATE USER @mysql_user@'localhost' IDENTIFIED BY @mysql_password;
-GRANT ALL PRIVILEGES ON *.* TO @mysql_user@'localhost' WITH GRANT OPTION;
-FLUSH PRIVILEGES;
