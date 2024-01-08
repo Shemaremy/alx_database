@@ -10,5 +10,5 @@ INSERT INTO second_table VALUES (
     id = 4, name = “George”, score = 8
 
 )
-SELECT * FROM second_table;
+
 
