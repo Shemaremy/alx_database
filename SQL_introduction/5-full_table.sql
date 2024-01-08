@@ -6,5 +6,5 @@ CREATE TABLE IF NOT EXISTS first_table (
     created_at DATE,
     PRIMARY KEY (id)
 );
-DESC first_table;
+SHOW CREATE TABLE first_table;
 
