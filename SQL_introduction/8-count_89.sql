@@ -13,4 +13,4 @@ INSERT INTO first_table (id, name) VALUES (89, "D");
 INSERT INTO first_table (id, name) VALUES (89, "E");
 INSERT INTO first_table (id, name) VALUES (3, "F");
 
-SELECT COUNT * FROM first_table WHERE id = 89;
+SELECT COUNT (*) FROM first_table WHERE id = 89;
