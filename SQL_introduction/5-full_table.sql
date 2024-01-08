@@ -7,3 +7,4 @@ CREATE TABLE IF NOT EXISTS first_table (
     PRIMARY KEY (id)
 );
 DESC first_table;
+
