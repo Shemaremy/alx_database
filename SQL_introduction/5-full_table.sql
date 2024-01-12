@@ -6,5 +6,9 @@ CREATE TABLE IF NOT EXISTS first_table (
     created_at DATE,
     PRIMARY KEY (id)
 );
+
 SHOW CREATE TABLE first_table;
+
+-- This statement above will display the code used to create the table first_table.
+-- To display the code not do display the table!!
 
